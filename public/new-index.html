@@ -56,7 +56,7 @@
             <span class="icon-bar"></span>
           </button>
 
-          <a class="navbar-brand" href="#">Mongo Express</a>
+          <a class="navbar-brand" href="#">localhost</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
@@ -73,12 +73,12 @@
             </li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <!-- <li class="icon-only"><a href="#"><i class="mdi-action-help"></i> </a></li> -->
+            <li class="icon-only"><a href="#"><i class="mdi-action-help"></i> </a></li>
             <li class="icon-only">
               <a href="javascript:void(0)" class="dropdown-toggle withripple" data-toggle="dropdown"><i class="mdi-action-account-box"></i></a>
               <ul class="dropdown-menu">
-                  <li><a href="javascript:void(0)" class=" withripple">Users</a></li>
-                  <li><a href="javascript:void(0)" class=" withripple">Logout</a></li>
+                  <li><a href="javascript:void(0)">Users</a></li>
+                  <li><a href="javascript:void(0)">Logout</a></li>
               </ul>
               </li>
           </ul>
@@ -89,18 +89,90 @@
 
     <!-- BEGIN CONTENT -->
 
-    <div class="container-fluid">
+    <div class="container-fluid main">
       <div class="row">
 
-        <div class="col-md-12">
+        <div class="col-sm-9 col-md-10">
 
           <div class="page-header">
             <h1>Select a Database</h1>
-            <ul class="nav nav-pills pull-right view-pills">
-              <li class="active"><a href="javascript:void(0)">Home</a></li>
-              <li><a href="javascript:void(0)">Profile</a></li>
+
+            <ul class="nav nav-pills pull-right view-pills text-300">
+              <li class="active"><a href="javascript:void(0)"><i class="mdi-action-view-list"></i></a></li>
+              <li><a href="javascript:void(0)"><i class="mdi-action-view-module"></i></a></li>
             </ul>
           </div>
+
+
+          <!-- BEGIN TILES -->
+          <div class="row">
+            <div class="tiles col-md-12">
+
+              <div class="tile col-xs-6 col-sm-4 col-md-3 col-lg-2">
+                <div class="tile-inner">
+                  <footer>
+                    <p>bchm</p>
+                    <p>13 collections</p>
+                  </footer>
+                </div>
+              </div>
+
+              <div class="tile col-xs-6 col-sm-4 col-md-3 col-lg-2">
+                <div class="tile-inner">
+                  <footer>
+                    <p>mma-db</p>
+                    <p>21 collections</p>
+                  </footer>
+                </div>
+              </div>
+
+              <div class="tile col-xs-6 col-sm-4 col-md-3 col-lg-2">
+                <div class="tile-inner">
+                  <footer>
+                    <p>mma-db</p>
+                    <p>21 collections</p>
+                  </footer>
+                </div>
+              </div>
+
+              <div class="tile col-xs-6 col-sm-4 col-md-3 col-lg-2">
+                <div class="tile-inner">
+                  <footer>
+                    <p>mma-db</p>
+                    <p>21 collections</p>
+                  </footer>
+                </div>
+              </div>
+
+              <div class="tile col-xs-6 col-sm-4 col-md-3 col-lg-2">
+                <div class="tile-inner">
+                  <footer>
+                    <p>mma-db</p>
+                    <p>21 collections</p>
+                  </footer>
+                </div>
+              </div>
+
+              <div class="tile col-xs-6 col-sm-4 col-md-3 col-lg-2">
+                <div class="tile-inner">
+                  <footer>
+                    <p>mma-db</p>
+                    <p>21 collections</p>
+                  </footer>
+                </div>
+              </div>
+
+              <div class="tile col-xs-6 col-sm-4 col-md-3 col-lg-2">
+                <div class="tile-inner">
+                  <footer>
+                    <p>mma-db</p>
+                    <p>21 collections</p>
+                  </footer>
+                </div>
+              </div>
+
+            </div>
+          </div><!-- END OF TILES -->
 
           <div class="table-responsive">
             <table class="table table-striped">
@@ -230,10 +302,64 @@
             </table>
           </div>
         </div>
+
+        <div class="col-sm-3 col-sm-offset-9 col-md-2 col-md-offset-10 sidebar">
+          <h4>Server Status <i class="mdi-action-autorenew pull-right"></i></h4>
+          <dl>
+            <dt>Hostname</dt>
+            <dd>localhost</dd>
+
+            <dt>MongoDB Version</dt>
+            <dd>2.4.7</dd>
+
+            <dt>Uptime</dt>
+            <dd>92455 seconds (1 days)</dd>
+
+            <dt>Server Time</dt>
+            <dd>Sun, 23 Nov 2014 19:13:01 GMT</dd>
+          </dl>
+
+          <dl>
+            <dt>Connections</dt>
+            <dd>Current: 5<br/>Available: 199</dd>
+          </dl>
+
+          <dl>
+            <dt>Clients</dt>
+            <dd>Active: 0<br/>  Reading: 0<br/>  Writing: 0</dd>
+          </dl>
+
+          <dl>
+            <dt>Queues</dt>
+            <dd>Operations:0 <br/>  Read Lock: 0 <br/>  Write Lock: 0</dd>
+          </dl>
+
+          <dl>
+            <dt>Operation Counts</dt>
+            <dd>Inserts: 14 <br/>  Queries: 6901 <br/>  Updates: 0 <br/>  Deletes: 2</dd>
+          </dl>
+
+          <dl>
+            <dt>Flush Count</dt>
+            <dd>1047</dd>
+
+            <dt>Last Flush</dt>
+            <dd>Sun, 23 Nov 2014 19:29:46 GMT</dd>
+
+            <dt>Time Spent</dt>
+            <dd>5154 ms</dd>
+
+            <dt>Average Time</dt>
+            <dd>4.922636103151863 ms</dd>
+          </dl>
+
+        </div>
       </div>
     </div>
 
     <!-- END CONTENT -->
+    <div class="col-md-10">
+    </div>
 
   </body>
 </html>

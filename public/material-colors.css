@@ -157,6 +157,7 @@
 .material-page.indigo .bg-a400{ background: #304FFE !important; }
 .material-page.indigo .nav-sidebar > .active > a, .material-page.indigo .nav-sidebar > .active > a:hover, .material-page.indigo .nav-sidebar > .active > a:focus { color: #fff; background-color: #3F51B5; }
 .material-page.indigo .nav-pills>li.active>a, .material-page.indigo .nav-pills>li.active>a:hover, .material-page.indigo .nav-pills>li.active>a:focus{ color: #fff; background-color: #3F51B5; }
+.material-page.indigo .nav-pills>li>a:hover{ color:#3F51B5; background-color: #C5CAE9; }
 
 /* * * INDIGO TEXT * * */
 .material-page.indigo .text-50 { color: #E8EAF6 !important; }
