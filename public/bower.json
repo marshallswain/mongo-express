@@ -1,0 +1,24 @@
+{
+  "name": "mongo-express",
+  "version": "0.0.0",
+  "authors": [
+    "Marshall Thompson <marshall@creativeideal.net>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.2.0",
+    "bootstrap-material-design": "0.1.5"
+    "canjs": "2.1.2",
+    "jquery": "~2.1.1",
+    "momentjs": "~2.8.3",
+    "steal": "~0.3.0",
+  }
+}
