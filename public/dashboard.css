@@ -4,7 +4,7 @@
 
 /* Move down content because we have a fixed navbar that is 50px tall */
 body {
-  padding-top: 50px;
+  padding-top: 60px;
 }
 
 
@@ -82,13 +82,26 @@ body {
 }
 .main .page-header {
   margin-top: 0;
+  position: relative;
 }
+
+.view-pills{
+  position: absolute;
+  top:50px;
+  right:15px;
+}
+
 
 #navbar{
   font-size:18px;
 }
-#navbar i{
-  font-size:20px;
+#navbar li.icon-only a{
+  padding-top:16px;
+  padding-bottom:16px;
+}
+#navbar li.icon-only i{
+  font-size:26px;
+  line-height:26px;
 }
 #navbar li.navbar-select form{
   padding-left:0;
