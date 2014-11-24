@@ -11,6 +11,9 @@ body {
   margin:0;
   padding:8px;
 }
+.tiles h1{
+  padding-left:8px;
+}
 .tile{
   padding:8px;
 }
@@ -58,7 +61,7 @@ body {
   line-height:52px;
   height:48px;
   color:white;
-  font-size:24px;
+  font-size:28px;
 
   background: rgba(0, 0, 0, 0.2);
   -webkit-transition: all .4s;
@@ -127,7 +130,7 @@ body {
 
 /* Hide for mobile, show later */
 .sidebar {
-  display: none;
+  /*display: none;*/
 }
 @media (min-width: 768px) {
   .sidebar {
@@ -201,18 +204,21 @@ body {
   margin-bottom:0;
 }
 
-.view-pills{
+/* * * View Tools * * */
+.view-tools{
   position: absolute;
-  bottom:0;
+  bottom:-8px;
   right:0;
+  font-size: 32px;
+  color: #607D8B;
 }
-.view-pills li a{
+.view-tools ul{
+  margin-left:16px;
+}
+.view-tools li a{
   padding:4px 4px 2px 4px;
   color: #607D8B;
   border-radius:0;
-}
-.view-pills i{
-  font-size:32px;
 }
 
 
