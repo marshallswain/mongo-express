@@ -56,29 +56,51 @@
             <span class="icon-bar"></span>
           </button>
 
-          <a class="navbar-brand" href="#">Mongo Express</a>
+          <a class="navbar-brand" href="#">localhost</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li class="icon-only"><a href="#"><i class="mdi-action-dns"></i> </a></li>
             <li class="navbar-select dropdown">
               <a href="javascript:void(0)" class="dropdown-toggle withripple" data-toggle="dropdown">mma-db <b class="caret"></b></a>
               <ul class="dropdown-menu">
-                  <li><a href="javascript:void(0)" class=" withripple">bchm</a></li>
-                  <li><a href="javascript:void(0)" class=" withripple">bchm-old</a></li>
-                  <li><a href="javascript:void(0)" class=" withripple">feathers</a></li>
-                  <li><a href="javascript:void(0)" class=" withripple">kardon-db</a></li>
-                  <li><a href="javascript:void(0)" class=" withripple">mma-db</a></li>
+                <li><a href="/new-database.html#">bchm</a></li>
+                <li><a href="/new-database.html#">bchm-old</a></li>
+                <li><a href="/new-database.html#">e-store</a></li>
+                <li><a href="/new-database.html#">feathers</a></li>
+                <li><a href="/new-database.html#">kardon-db</a></li>
+                <li><a href="/new-database.html#">mma-db</a></li>
+                <li><a href="/new-database.html#">tv-guide</a></li>
+              </ul>
+            </li>
+            <li class="navbar-select dropdown">
+              <a href="javascript:void(0)" class="dropdown-toggle withripple" data-toggle="dropdown">accounts <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="/new-collection.html#">account_shared_names</a></li>
+                <li><a href="/new-collection.html#">accounts</a></li>
+                <li><a href="/new-collection.html#">assets</a></li>
+                <li><a href="/new-collection.html#">budget</a></li>
+                <li><a href="/new-collection.html#">calendar</a></li>
+                <li><a href="/new-collection.html#">categories</a></li>
+                <li><a href="/new-collection.html#">contacts</a></li>
+                <li><a href="/new-collection.html#">credit_scores</a></li>
+                <li><a href="/new-collection.html#">debt</a></li>
+                <li><a href="/new-collection.html#">labels</a></li>
+                <li><a href="/new-collection.html#">planning</a></li>
+                <li><a href="/new-collection.html#">preferences</a></li>
+                <li><a href="/new-collection.html#">reports</a></li>
+                <li><a href="/new-collection.html#">sessions</a></li>
+                <li><a href="/new-collection.html#">system.indexes</a></li>
+                <li><a href="/new-collection.html#">system.users</a></li>
               </ul>
             </li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <!-- <li class="icon-only"><a href="#"><i class="mdi-action-help"></i> </a></li> -->
+            <li class="icon-only"><a href="#"><i class="mdi-action-help"></i> </a></li>
             <li class="icon-only">
               <a href="javascript:void(0)" class="dropdown-toggle withripple" data-toggle="dropdown"><i class="mdi-action-account-box"></i></a>
               <ul class="dropdown-menu">
-                  <li><a href="javascript:void(0)" class=" withripple">Users</a></li>
-                  <li><a href="javascript:void(0)" class=" withripple">Logout</a></li>
+                  <li><a href="javascript:void(0)">Users</a></li>
+                  <li><a href="javascript:void(0)">Logout</a></li>
               </ul>
               </li>
           </ul>
@@ -91,167 +113,84 @@
 
     <div class="container-fluid">
       <div class="row">
-        <div class="col-sm-3 col-md-2 sidebar">
-          <ul class="nav nav-sidebar">
-            <li class="active"><a href="#">Overview <span class="sr-only">(current)</span></a></li>
-            <li><a href="#">Reports</a></li>
-            <li><a href="#">Analytics</a></li>
-            <li><a href="#">Export</a></li>
-          </ul>
-          <ul class="nav nav-sidebar">
-            <li><a href="">Nav item</a></li>
-            <li><a href="">Nav item again</a></li>
-            <li><a href="">One more nav</a></li>
-            <li><a href="">Another nav item</a></li>
-            <li><a href="">More navigation</a></li>
-          </ul>
-          <ul class="nav nav-sidebar">
-            <li><a href="">Nav item again</a></li>
-            <li><a href="">One more nav</a></li>
-            <li><a href="">Another nav item</a></li>
-          </ul>
-        </div>
-        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-          <h1 class="page-header">Dashboard</h1>
 
-          <p class="bs-component">
-              <a href="javascript:void(0)" class="btn btn-default">Default</a>
-              <a href="javascript:void(0)" class="btn btn-primary">Primary</a>
-              <a href="javascript:void(0)" class="btn btn-success">Success</a>
-              <a href="javascript:void(0)" class="btn btn-info">Info</a>
-              <a href="javascript:void(0)" class="btn btn-warning">Warning</a>
-              <a href="javascript:void(0)" class="btn btn-danger">Danger</a>
-              <a href="javascript:void(0)" class="btn btn-link">Link</a>
-          </p>
 
-          <h2 class="sub-header">Table Section</h2>
-          <div class="table-responsive">
-            <table class="table table-striped">
-              <thead>
-                <tr>
-                  <th>#</th>
-                  <th>Header</th>
-                  <th>Header</th>
-                  <th>Header</th>
-                  <th>Header</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>1,001</td>
-                  <td>Lorem</td>
-                  <td>ipsum</td>
-                  <td>dolor</td>
-                  <td>sit</td>
-                </tr>
-                <tr>
-                  <td>1,002</td>
-                  <td>amet</td>
-                  <td>consectetur</td>
-                  <td>adipiscing</td>
-                  <td>elit</td>
-                </tr>
-                <tr>
-                  <td>1,003</td>
-                  <td>Integer</td>
-                  <td>nec</td>
-                  <td>odio</td>
-                  <td>Praesent</td>
-                </tr>
-                <tr>
-                  <td>1,003</td>
-                  <td>libero</td>
-                  <td>Sed</td>
-                  <td>cursus</td>
-                  <td>ante</td>
-                </tr>
-                <tr>
-                  <td>1,004</td>
-                  <td>dapibus</td>
-                  <td>diam</td>
-                  <td>Sed</td>
-                  <td>nisi</td>
-                </tr>
-                <tr>
-                  <td>1,005</td>
-                  <td>Nulla</td>
-                  <td>quis</td>
-                  <td>sem</td>
-                  <td>at</td>
-                </tr>
-                <tr>
-                  <td>1,006</td>
-                  <td>nibh</td>
-                  <td>elementum</td>
-                  <td>imperdiet</td>
-                  <td>Duis</td>
-                </tr>
-                <tr>
-                  <td>1,007</td>
-                  <td>sagittis</td>
-                  <td>ipsum</td>
-                  <td>Praesent</td>
-                  <td>mauris</td>
-                </tr>
-                <tr>
-                  <td>1,008</td>
-                  <td>Fusce</td>
-                  <td>nec</td>
-                  <td>tellus</td>
-                  <td>sed</td>
-                </tr>
-                <tr>
-                  <td>1,009</td>
-                  <td>augue</td>
-                  <td>semper</td>
-                  <td>porta</td>
-                  <td>Mauris</td>
-                </tr>
-                <tr>
-                  <td>1,010</td>
-                  <td>massa</td>
-                  <td>Vestibulum</td>
-                  <td>lacinia</td>
-                  <td>arcu</td>
-                </tr>
-                <tr>
-                  <td>1,011</td>
-                  <td>eget</td>
-                  <td>nulla</td>
-                  <td>Class</td>
-                  <td>aptent</td>
-                </tr>
-                <tr>
-                  <td>1,012</td>
-                  <td>taciti</td>
-                  <td>sociosqu</td>
-                  <td>ad</td>
-                  <td>litora</td>
-                </tr>
-                <tr>
-                  <td>1,013</td>
-                  <td>torquent</td>
-                  <td>per</td>
-                  <td>conubia</td>
-                  <td>nostra</td>
-                </tr>
-                <tr>
-                  <td>1,014</td>
-                  <td>per</td>
-                  <td>inceptos</td>
-                  <td>himenaeos</td>
-                  <td>Curabitur</td>
-                </tr>
-                <tr>
-                  <td>1,015</td>
-                  <td>sodales</td>
-                  <td>ligula</td>
-                  <td>in</td>
-                  <td>libero</td>
-                </tr>
-              </tbody>
-            </table>
+
+        <div class="col-md-9 main collection">
+          <div class="page-header">
+
+            <div class="breadcrumbs">
+              <a href="/new-index.html"><i class="mdi-action-dns"></i></a>
+              <span> / </span>
+              <a href="/new-database.html">mma-db</a>
+              <span> / </span>
+            </div>
+
+            <h1>
+              accounts
+            </h1>
+
+            <div class="view-tools">
+              <ul class="nav nav-pills pull-right">
+                <li><a href="javascript:void(0)"><i class="mdi-content-remove-circle-outline"></i></a></li>
+              </ul>
+
+              <ul class="nav nav-pills pull-right search">
+                <li><a href="javascript:void(0)"><i class="mdi-action-search"></i></a></li>
+              </ul>
+
+              <ul class="nav nav-pills pull-right add">
+                <!-- <li><a href="javascript:void(0)"><i class="mdi-av-playlist-add"></i></a></li> -->
+                <a id="add-col-btn" href="javascript:void(0)" class="btn btn-primary btn-fab btn-raised">
+                  <i class="mdi-content-add"></i>
+                </a>
+
+                <div id="add-col-form" class="form-container well bs-component">
+                  <form class="form-inline" role="form">
+                    <div class="col-md-12">
+                      <h3>New Collection</h3>
+                    </div>
+
+                    <div class="form-group">
+                      <label for="inputEmail" class="col-md-12 control-label">Name</label>
+                      <div class="col-md-12">
+                        <div class="form-control-wrapper"><input type="text" class="form-control empty"></div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-offset-">
+                      <button type="submit" class="btn btn-primary">Submit</button>
+                      <button class="btn btn-default pull-left">Cancel</button>
+                    </div>
+                  </form>
+                </div>
+
+              </ul>
+            </div>
           </div>
+            <p>47 documents</p>
+        </div>
+
+        <div class="col-md-3 col-md-offset-9 sidebar">
+          <h4>Collections <i class="mdi-action-autorenew pull-right"></i></h4>
+          <ul class="nav nav-sidebar">
+            <li><a href="">account_shared_names</a></li>
+            <li><a href="">accounts</a></li>
+            <li><a href="">assets</a></li>
+            <li><a href="">budget</a></li>
+            <li><a href="">calendar</a></li>
+            <li><a href="">categories</a></li>
+            <li><a href="">contacts</a></li>
+            <li><a href="">credit_scores</a></li>
+            <li><a href="">debt</a></li>
+            <li><a href="">labels</a></li>
+            <li><a href="">planning</a></li>
+            <li><a href="">preferences</a></li>
+            <li><a href="">reports</a></li>
+            <li><a href="">sessions</a></li>
+            <li><a href="">system.indexes</a></li>
+            <li><a href="">system.users</a></li>
+          </ul>
         </div>
       </div>
     </div>
