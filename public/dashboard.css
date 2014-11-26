@@ -23,13 +23,14 @@ body {
   position: relative;
   cursor: pointer;
   display: block;
+  color:white;
 }
 .tile-inner.plain{
   color: white;
   text-align: center;
   font-size: 18px;
   line-height: 180px;
-  background:#DDD;
+  background:#DDD !important;
   cursor: pointer;
     -webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
@@ -41,7 +42,8 @@ body {
   line-height: 180px;
 }
 .tile-inner.plain:hover{
-  background: #AAA;
+  background: #AAA !important;
+  color:white !important;
   text-decoration: none;
 }
 .tile footer{
@@ -52,7 +54,6 @@ body {
   left:0;
   right:0;
   bottom:0;
-  color: white;
     -webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
     -o-transition: all 0.2s;
