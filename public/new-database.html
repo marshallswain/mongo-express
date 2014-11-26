@@ -93,7 +93,7 @@
     <div class="container-fluid">
       <div class="row">
 
-        <div class="col-sm-12 main">
+        <div class="col-sm-9 main">
           <div class="page-header">
 
             <div class="breadcrumbs">
@@ -112,34 +112,29 @@
                 <li><a href="javascript:void(0)"><i class="mdi-action-search"></i></a></li>
               </ul>
 
-              <ul class="nav nav-pills pull-right add">
-                <!-- <li><a href="javascript:void(0)"><i class="mdi-av-playlist-add"></i></a></li> -->
-                <a id="add-col-btn" href="javascript:void(0)" class="btn btn-primary btn-fab btn-raised">
-                  <i class="mdi-content-add"></i>
-                </a>
-
-                <div id="add-col-form" class="form-container well bs-component">
-                  <form class="form-inline" role="form">
-                    <div class="col-md-12">
-                      <h3>New Collection</h3>
-                    </div>
-
-                    <div class="form-group">
-                      <label for="inputEmail" class="col-md-12 control-label">Name</label>
-                      <div class="col-md-12">
-                        <div class="form-control-wrapper"><input type="text" class="form-control empty"></div>
-                      </div>
-                    </div>
-
-                    <div class="col-md-offset-">
-                      <button type="submit" class="btn btn-primary">Submit</button>
-                      <button class="btn btn-default pull-left">Cancel</button>
-                    </div>
-                  </form>
-                </div>
-
-
+              <ul class="nav nav-pills pull-right search">
+                <li><a id="add-col-btn"  href="javascript:void(0)"><i class="mdi-content-add"></i></a></li>
               </ul>
+
+              <div id="add-col-form" class="form-container well bs-component">
+                <form class="form-inline" role="form">
+                  <div class="col-md-12">
+                    <h3>New Collection</h3>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="inputEmail" class="col-md-12 control-label">Name</label>
+                    <div class="col-md-12">
+                      <div class="form-control-wrapper"><input type="text" class="form-control empty"></div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-offset-">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button class="btn btn-default pull-left">Cancel</button>
+                  </div>
+                </form>
+              </div>
 
             </div>
 
@@ -386,6 +381,32 @@
             </table>
           </div>
         </div>
+
+        <div class="col-sm-3 col-sm-offset-9 sidebar">
+          <h4>Users <i class="mdi-action-autorenew pull-right"></i><i class="mdi-content-add pull-right"></i></h4>
+          <ul class="nav nav-sidebar user-list">
+            <li>
+              <a href="">marshall  <i class="mdi-editor-mode-edit pull-right"></i></a>
+            </li>
+          </ul>
+
+          <h4>Data Usage <i class="mdi-action-autorenew pull-right"></i></h4>
+          <table class="sidebar-table">
+            <tr>
+              <td>dataSize</td>
+              <td>1.16 KB</td>
+            </tr>
+            <tr>
+              <td>indexSize</td>
+              <td>47.9 KB</td>
+            </tr>
+            <tr>
+              <td>fileSize</td>
+              <td>16 MB</td>
+            </tr>
+          </table>
+        </div>
+
       </div>
     </div>
 
