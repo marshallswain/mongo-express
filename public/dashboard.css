@@ -74,6 +74,35 @@ body {
   font-size: 16px;
 }
 
+.record > p{
+  margin-bottom:0px;
+  position: relative;
+  display: inline-block;
+  top:8px;
+  font-size:15px;
+}
+.record > i{
+  padding:8px;
+  cursor:pointer;
+  position: relative;
+  font-size:16px;
+  font-weight:bold;
+    -webkit-transition: all .4s;
+    -moz-transition: all .4s;
+    -o-transition: all .4s;
+    transition: all .4s;
+}
+.record > i:hover{
+  background: #b30007;
+  color: white;
+
+}
+.editor {
+  width: 100%;
+  height:80px;
+  margin-bottom:8px;
+}
+
 /* TILE TOOLS */
 .tile .tile-tools{
   opacity:0;

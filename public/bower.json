@@ -15,10 +15,11 @@
   ],
   "dependencies": {
     "bootstrap": "~3.2.0",
-    "bootstrap-material-design": "0.1.5"
+    "bootstrap-material-design": "0.1.5",
     "canjs": "2.1.2",
     "jquery": "~2.1.1",
     "momentjs": "~2.8.3",
     "steal": "~0.3.0",
+    "ace": "https://github.com/ajaxorg/ace-builds.git"
   }
 }
