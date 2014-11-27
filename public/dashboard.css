@@ -276,28 +276,34 @@ table tr td:nth-child(2) > a{
   padding-right: 20px;
   padding-left: 20px;
   cursor:default;
-    -webkit-transition: all .2s;
-    -moz-transition: all .2s;
-    -o-transition: all .2s;
-    transition: all .2s;
+  -webkit-transition: all .2s;
+  -moz-transition: all .2s;
+  -o-transition: all .2s;
+  transition: all .2s;
 }
-.nav-sidebar i{
-  opacity: 0;
+.nav-sidebar i.pull-right{
   position: relative;
   padding:8px;
   top:-5px;
   right:3px;
   cursor:pointer;
-    -webkit-transition: all .3s;
-    -moz-transition: all .3s;
-    -o-transition: all .3s;
-    transition: all .3s;
+  opacity: 0;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
 }
-.nav-sidebar li:hover i{
+.nav-sidebar li:hover i.pull-right{
   opacity:1;
 }
-.nav-sidebar i:hover{
+.nav-sidebar li i.mdi-action-delete:hover{
+  background:none;
+}
+.nav-sidebar li i:hover{
   background:rgba(0, 0, 0, 0.11);
+}
+.nav-sidebar li.trash{
+  margin-top:8px;
 }
 .nav-sidebar > .active > a,
 .nav-sidebar > .active > a:hover,

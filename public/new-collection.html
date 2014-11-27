@@ -288,7 +288,35 @@
             <li><a href="">sessions</a></li>
             <li><a href="">system.indexes</a></li>
             <li><a href="">system.users</a></li>
+
+            <li class="trash">
+              <a href="javascript:void(0)">
+                <i class="mdi-action-delete"></i>
+                Trash
+                <i class="mdi-content-clear pull-right" data-toggle="modal" data-target="#myModal"></i>
+              </a>
+            </li>
+
           </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            <h4 class="modal-title" id="myModalLabel">Empty Trash?</h4>
+          </div>
+          <div class="modal-body">
+            This will drop the <strong class="text-700">z.mongo-express.trash</strong> collection and all documents in it.  This cannot be undone.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Empty Trash</button>
+          </div>
         </div>
       </div>
     </div>
