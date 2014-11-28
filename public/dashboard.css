@@ -82,17 +82,23 @@ body {
   font-size:15px;
 }
 .record > i{
+  opacity:0;
+  padding-left:0;
+  padding-right:0;
+  overflow: hidden;
+}
+.record > i{
   padding:8px;
-  cursor:pointer;
   position: relative;
   font-size:16px;
   font-weight:bold;
-    -webkit-transition: all .4s;
-    -moz-transition: all .4s;
-    -o-transition: all .4s;
-    transition: all .4s;
+  -webkit-transition: all .4s;
+  -moz-transition: all .4s;
+  -o-transition: all .4s;
+  transition: all .4s;
 }
-.record > i:hover{
+.record > i.visible:hover{
+  cursor:pointer;
   background: #b30007;
   color: white;
 
