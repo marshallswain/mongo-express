@@ -75,11 +75,10 @@ body {
 }
 
 .record > p{
-  margin-bottom:0px;
   position: relative;
-  display: inline-block;
-  top:8px;
-  font-size:15px;
+  display: inline;
+  font-size:14px;
+  top:13px;
 }
 .record > i{
   opacity:0;
@@ -103,10 +102,34 @@ body {
   color: white;
 
 }
-.editor {
+.record textarea{
+  width:100%;
+}
+.editor{
+  margin:0;
+  padding:0;
+}
+.editor .CodeMirror{
   width: 100%;
   height:80px;
-  margin-bottom:8px;
+  font-size:14px;
+  margin-bottom:0px;
+}
+@media (min-width: 992px){
+  .editor .CodeMirror{
+    width: 100%;
+    height:80px;
+    margin-bottom:8px;
+    font-size:15px;
+  }
+}
+@media (min-width: 1200px){
+  .editor .CodeMirror{
+    width: 100%;
+    height:100px;
+    margin-bottom:8px;
+    font-size:16px;
+  }
 }
 
 /* TILE TOOLS */

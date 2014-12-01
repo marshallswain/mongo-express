@@ -20,6 +20,7 @@
     "jquery": "~2.1.1",
     "momentjs": "~2.8.3",
     "steal": "~0.3.0",
-    "ace": "https://github.com/ajaxorg/ace-builds.git"
+    "ace": "https://github.com/ajaxorg/ace-builds.git",
+    "codemirror": "~4.8.0"
   }
 }

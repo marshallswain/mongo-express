@@ -42,8 +42,17 @@
         });
     </script>
 
-    <script src="/bower_components/ace/src-noconflict/ace.js" type="text/javascript" charset="utf-8"></script>
+    <!-- CodeMirror Editor -->
 
+    <script src="/bower_components/codemirror/lib/codemirror.js"></script>
+    <link rel="stylesheet" href="/bower_components/codemirror/lib/codemirror.css">
+    <link rel="stylesheet" href="/bower_components/codemirror/theme/monokai.css">
+    <script src="/bower_components/codemirror/mode/javascript/javascript.js"></script>
+
+    <!-- Ace Editor -->
+    <!--
+    <script src="/bower_components/ace/src-noconflict/ace.js" type="text/javascript" charset="utf-8"></script>
+ -->
 
   </head>
 
@@ -173,95 +182,65 @@
 
 <div class="records">
 
-<div class="record">
-<i class="mdi-content-clear pull-right"></i>
-<p>ObjectID("5359550868cc9b2b372e2ea5")</p>
-<div id="editor1" class="editor">
+  <div class="record">
+    <i class="mdi-content-clear pull-right"></i>
+    <p>ObjectID("5359550868cc9b2b372e2ea5")</p>
+    <div id="editor1" class="editor"> </div>
+  </div>
 
-</div>
-</div>
+  <div class="record">
+    <i class="mdi-content-clear pull-right"></i>
+    <p>ObjectID("5359550868cc9b2b372e2ea5")</p>
+    <div id="editor2" class="editor"></div>
+  </div>
 
+  <div class="record">
+    <i class="mdi-content-clear pull-right"></i>
+    <p>ObjectID("5359550868cc9b2b372e2ea5")</p>
+    <div id="editor3" class="editor"></div>
+  </div>
 
-<div class="record">
-<i class="mdi-content-clear pull-right"></i>
-<p>ObjectID("5359550868cc9b2b372e2ea5")</p>
-<div id="editor2" class="editor">function foo(items) {
-  var x = "All this is syntax highlighted";
-  return x;
-}</div>
-</div>
+  <div class="record">
+    <i class="mdi-content-clear pull-right"></i>
+    <p>ObjectID("5359550868cc9b2b372e2ea5")</p>
+    <div id="editor4" class="editor"></div>
+  </div>
 
-<div class="record">
-<i class="mdi-content-clear pull-right"></i>
-<p>ObjectID("5359550868cc9b2b372e2ea5")</p>
-<div id="editor3" class="editor">function foo(items) {
-  var x = "All this is syntax highlighted";
-  return x;
-}</div>
-</div>
+  <div class="record">
+    <i class="mdi-content-clear pull-right"></i>
+    <p>ObjectID("5359550868cc9b2b372e2ea5")</p>
+    <div id="editor5" class="editor"></div>
+  </div>
 
-<div class="record">
-<i class="mdi-content-clear pull-right"></i>
-<p>ObjectID("5359550868cc9b2b372e2ea5")</p>
-<div id="editor4" class="editor">function foo(items) {
-  var x = "All this is syntax highlighted";
-  return x;
-}</div>
-</div>
+  <div class="record">
+    <i class="mdi-content-clear pull-right"></i>
+    <p>ObjectID("5359550868cc9b2b372e2ea5")</p>
+    <div id="editor6" class="editor"></div>
+  </div>
 
-<div class="record">
-<i class="mdi-content-clear pull-right"></i>
-<p>ObjectID("5359550868cc9b2b372e2ea5")</p>
-<div id="editor5" class="editor">function foo(items) {
-  var x = "All this is syntax highlighted";
-  return x;
-}</div>
-</div>
+  <div class="record">
+    <i class="mdi-content-clear pull-right"></i>
+    <p>ObjectID("5359550868cc9b2b372e2ea5")</p>
+    <div id="editor7" class="editor"></div>
+  </div>
 
-<div class="record">
-<i class="mdi-content-clear pull-right"></i>
-<p>ObjectID("5359550868cc9b2b372e2ea5")</p>
-<div id="editor6" class="editor">function foo(items) {
-  var x = "All this is syntax highlighted";
-  return x;
-}</div>
-</div>
+  <div class="record">
+    <i class="mdi-content-clear pull-right"></i>
+    <p>ObjectID("5359550868cc9b2b372e2ea5")</p>
+    <div id="editor8" class="editor"></div>
+  </div>
 
-<div class="record">
-<i class="mdi-content-clear pull-right"></i>
-<p>ObjectID("5359550868cc9b2b372e2ea5")</p>
-<div id="editor7" class="editor">function foo(items) {
-  var x = "All this is syntax highlighted";
-  return x;
-}</div>
-</div>
+  <div class="record">
+  <i class="mdi-content-clear pull-right"></i>
+  <p>ObjectID("5359550868cc9b2b372e2ea5")</p>
+    <div id="editor9" class="editor"></div>
+  </div>
 
-<div class="record">
-<i class="mdi-content-clear pull-right"></i>
-<p>ObjectID("5359550868cc9b2b372e2ea5")</p>
-<div id="editor8" class="editor">function foo(items) {
-  var x = "All this is syntax highlighted";
-  return x;
-}</div>
-</div>
-
-<div class="record">
-<i class="mdi-content-clear pull-right"></i>
-<p>ObjectID("5359550868cc9b2b372e2ea5")</p>
-<div id="editor9" class="editor">function foo(items) {
-  var x = "All this is syntax highlighted";
-  return x;
-}</div>
-</div>
-
-<div class="record">
-<i class="mdi-content-clear pull-right"></i>
-<p>ObjectID("5359550868cc9b2b372e2ea5")</p>
-<div id="editor10" class="editor">function foo(items) {
-  var x = "All this is syntax highlighted";
-  return x;
-}</div>
-</div>
+  <div class="record">
+    <i class="mdi-content-clear pull-right"></i>
+    <p>ObjectID("5359550868cc9b2b372e2ea5")</p>
+    <div id="editor10" class="editor"></div>
+  </div>
 
 </div>
 
@@ -322,46 +301,121 @@
     </div>
 
     <!-- END CONTENT -->
+
+
     <script>
-        var editor = ace.edit("editor1");
-        editor.setTheme("ace/theme/monokai");
-        editor.getSession().setMode("ace/mode/javascript");
 
-        var editor2 = ace.edit("editor2");
-        editor2.setTheme("ace/theme/monokai");
-        editor2.getSession().setMode("ace/mode/javascript");
+      var editor1 = CodeMirror(document.getElementById('editor1'), {
+        value: "function myScript(){return 100;}",
+        mode: { name: "javascript", json: true },
+        indentUnit: 4,
+        lineNumbers: true,
+        autoClearEmptyLines: true,
+        matchBrackets: true,
+        theme: "monokai"
+      });
 
-        var editor3 = ace.edit("editor3");
-        editor3.setTheme("ace/theme/monokai");
-        editor3.getSession().setMode("ace/mode/javascript");
+      var editor2 = CodeMirror(document.getElementById('editor2'), {
+        value: "function myScript(){return 100;}",
+        mode: { name: "javascript", json: true },
+        indentUnit: 4,
+        lineNumbers: true,
+        autoClearEmptyLines: true,
+        matchBrackets: true,
+        theme: "monokai"
+      });
 
-        var editor4 = ace.edit("editor4");
-        editor4.setTheme("ace/theme/monokai");
-        editor4.getSession().setMode("ace/mode/javascript");
+      var editor3 = CodeMirror(document.getElementById('editor3'), {
+        value: "function myScript(){return 100;}",
+        mode: { name: "javascript", json: true },
+        indentUnit: 4,
+        lineNumbers: true,
+        autoClearEmptyLines: true,
+        matchBrackets: true,
+        theme: "monokai"
+      });
 
-        var editor5 = ace.edit("editor5");
-        editor5.setTheme("ace/theme/monokai");
-        editor5.getSession().setMode("ace/mode/javascript");
+      var editor4 = CodeMirror(document.getElementById('editor4'), {
+        value: "function myScript(){return 100;}",
+        mode: { name: "javascript", json: true },
+        indentUnit: 4,
+        lineNumbers: true,
+        autoClearEmptyLines: true,
+        matchBrackets: true,
+        theme: "monokai"
+      });
 
-        var editor6 = ace.edit("editor6");
-        editor6.setTheme("ace/theme/monokai");
-        editor6.getSession().setMode("ace/mode/javascript");
+      var editor5 = CodeMirror(document.getElementById('editor5'), {
+        value: "function myScript(){return 100;}",
+        mode: { name: "javascript", json: true },
+        indentUnit: 4,
+        lineNumbers: true,
+        autoClearEmptyLines: true,
+        matchBrackets: true,
+        theme: "monokai"
+      });
 
-        var editor7 = ace.edit("editor7");
-        editor7.setTheme("ace/theme/monokai");
-        editor7.getSession().setMode("ace/mode/javascript");
+      var editor6 = CodeMirror(document.getElementById('editor6'), {
+        value: "function myScript(){return 100;}",
+        mode: { name: "javascript", json: true },
+        indentUnit: 4,
+        lineNumbers: true,
+        autoClearEmptyLines: true,
+        matchBrackets: true,
+        theme: "monokai"
+      });
 
-        var editor8 = ace.edit("editor8");
-        editor8.setTheme("ace/theme/monokai");
-        editor8.getSession().setMode("ace/mode/javascript");
+      var editor7 = CodeMirror(document.getElementById('editor7'), {
+        value: "function myScript(){return 100;}",
+        mode: { name: "javascript", json: true },
+        indentUnit: 4,
+        lineNumbers: true,
+        autoClearEmptyLines: true,
+        matchBrackets: true,
+        theme: "monokai"
+      });
 
-        var editor9 = ace.edit("editor9");
-        editor9.setTheme("ace/theme/monokai");
-        editor9.getSession().setMode("ace/mode/javascript");
+      var editor8 = CodeMirror(document.getElementById('editor8'), {
+        value: "function myScript(){return 100;}",
+        mode: { name: "javascript", json: true },
+        indentUnit: 4,
+        lineNumbers: true,
+        autoClearEmptyLines: true,
+        matchBrackets: true,
+        theme: "monokai"
+      });
 
-        var editor10 = ace.edit("editor10");
-        editor10.setTheme("ace/theme/monokai");
-        editor10.getSession().setMode("ace/mode/javascript");
+      var editor8 = CodeMirror(document.getElementById('editor8'), {
+        value: "function myScript(){return 100;}",
+        mode: { name: "javascript", json: true },
+        indentUnit: 4,
+        lineNumbers: true,
+        autoClearEmptyLines: true,
+        matchBrackets: true,
+        theme: "monokai"
+      });
+
+      var editor9 = CodeMirror(document.getElementById('editor9'), {
+        value: "function myScript(){return 100;}",
+        mode: { name: "javascript", json: true },
+        indentUnit: 4,
+        lineNumbers: true,
+        autoClearEmptyLines: true,
+        matchBrackets: true,
+        theme: "monokai"
+      });
+
+      var editor10 = CodeMirror(document.getElementById('editor10'), {
+        value: "function myScript(){return 100;}",
+        mode: { name: "javascript", json: true },
+        indentUnit: 4,
+        lineNumbers: true,
+        autoClearEmptyLines: true,
+        matchBrackets: true,
+        theme: "monokai"
+      });
+
+
     </script>
 
   </body>
