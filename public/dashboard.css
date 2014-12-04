@@ -448,7 +448,7 @@ table tr td:nth-child(2) > a{
 }
 
 div.search-wrapper{
-  margin-top:8px;
+  margin:8px 0;
 }
 div.search-wrapper .col-md-9{
   padding-left: 22px;
@@ -469,6 +469,10 @@ input#searchbox{
   height:32px;
   margin:5px;
   font-size:18px;
+}
+.records-summary{
+  padding-left:11px;
+  font-size:16px;
 }
 
 #navbar{
