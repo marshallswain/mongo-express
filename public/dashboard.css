@@ -447,6 +447,29 @@ table tr td:nth-child(2) > a{
   }
 }
 
+div.search-wrapper{
+  margin-top:8px;
+}
+div.search-wrapper .col-md-9{
+  padding-left: 22px;
+}
+div.search-wrapper .col-md-3{
+  padding-right: 32px;
+}
+div.search-wrapper form{
+  background: white;
+}
+div.search-wrapper form button{
+  margin: 6px
+}
+div.input-group .form-control-wrapper{
+  bottom:auto;
+}
+input#searchbox{
+  height:32px;
+  margin:5px;
+  font-size:18px;
+}
 
 #navbar{
   font-size:18px;
