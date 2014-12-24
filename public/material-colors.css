@@ -36,6 +36,7 @@
 .material-page.red .text-a300{ background: #FF1744 !important; }
 .material-page.red .text-a400{ background: #D50000 !important; }
 .material-page.red div.query-wrapper .editable{color:#D32F2F;}
+.material-page.red div.query{color:#EF9A9A;}
 
 
 /* * * PINK BACKGROUNDS * * */
@@ -73,6 +74,7 @@
 .material-page.pink .text-a200{ background: #FF4081 !important; }
 .material-page.pink .text-a300{ background: #F50057 !important; }
 .material-page.pink .text-a400{ background: #C51162 !important; }
+.material-page.pink div.query{color:#F48FB1;}
 
 
 /* * * PURPLE BACKGROUNDS * * */
@@ -110,6 +112,7 @@
 .material-page.purple .text-a200{ background: #E040FB !important; }
 .material-page.purple .text-a300{ background: #D500F9 !important; }
 .material-page.purple .text-a400{ background: #AA00FF !important; }
+.material-page.purple div.query{color:#CE93D8;}
 
 
 /* * * DEEP PURPLE BACKGROUNDS * * */
@@ -147,6 +150,7 @@
 .material-page.deep-purple .text-a200{ background: #7C4DFF !important; }
 .material-page.deep-purple .text-a300{ background: #651FFF !important; }
 .material-page.deep-purple .text-a400{ background: #6200EA !important; }
+.material-page.deep-purple div.query{color:#B39DDB;}
 
 
 /* * * INDIGO BACKGROUNDS * * */
@@ -223,6 +227,7 @@
 .material-page.blue .text-a200{ background: #448AFF !important; }
 .material-page.blue .text-a300{ background: #2979FF !important; }
 .material-page.blue .text-a400{ background: #2962FF !important; }
+.material-page.blue div.query{color:#90CAF9;}
 
 
 /* * * LIGHT BLUE BACKGROUNDS * * */
@@ -260,6 +265,7 @@
 .material-page.light-blue .text-a200{ background: #40C4FF !important; }
 .material-page.light-blue .text-a300{ background: #00B0FF !important; }
 .material-page.light-blue .text-a400{ background: #0091EA !important; }
+.material-page.light-blue div.query{color:#81D4FA;}
 
 
 /* * * CYAN BACKGROUNDS * * */
@@ -297,6 +303,7 @@
 .material-page.cyan .text-a200{ background: #18FFFF !important; }
 .material-page.cyan .text-a300{ background: #00E5FF !important; }
 .material-page.cyan .text-a400{ background: #00B8D4 !important; }
+.material-page.cyan div.query{color:#80DEEA;}
 
 
 /* * * TEAL BACKGROUNDS * * */
@@ -334,6 +341,7 @@
 .material-page.teal .text-a200{ background: #64FFDA !important; }
 .material-page.teal .text-a300{ background: #1DE9B6 !important; }
 .material-page.teal .text-a400{ background: #00BFA5 !important; }
+.material-page.teal div.query{color:#80CBC4;}
 
 
 /* * * GREEN BACKGROUNDS * * */
@@ -371,6 +379,7 @@
 .material-page.green .text-a200{ background: #69F0AE !important; }
 .material-page.green .text-a300{ background: #00E676 !important; }
 .material-page.green .text-a400{ background: #00C853 !important; }
+.material-page.green div.query{color:#A5D6A7;}
 
 
 /* * * LIGHT GREEN BACKGROUNDS * * */
@@ -408,6 +417,7 @@
 .material-page.light-green .text-a200{ background: #B2FF59 !important; }
 .material-page.light-green .text-a300{ background: #76FF03 !important; }
 .material-page.light-green .text-a400{ background: #64DD17 !important; }
+.material-page.light-green div.query{color:#C5E1A5;}
 
 
 /* * * LIME BACKGROUNDS * * */
@@ -445,6 +455,7 @@
 .material-page.lime .text-a200{ background: #EEFF41 !important; }
 .material-page.lime .text-a300{ background: #C6FF00 !important; }
 .material-page.lime .text-a400{ background: #AEEA00 !important; }
+.material-page.lime div.query{color:#E6EE9C;}
 
 
 /* * * YELLOW BACKGROUNDS * * */
@@ -482,6 +493,7 @@
 .material-page.yellow .text-a300{ background: #FFEA00 !important; }
 .material-page.yellow .text-a400{ background: #FFD600 !important; }
 .material-page.yellow .tile-inner:not(.plain){ background-color: #FFF59D; color:#444;}
+.material-page.yellow div.query{color:#FFF59D;}
 
 
 /* * * AMBER BACKGROUNDS * * */
@@ -519,6 +531,7 @@
 .material-page.amber .text-a200{ background: #FFD740 !important; }
 .material-page.amber .text-a300{ background: #FFC400 !important; }
 .material-page.amber .text-a400{ background: #FFAB00 !important; }
+.material-page.amber div.query{color:#FFE082;}
 
 
 /* * * ORANGE BACKGROUNDS * * */
@@ -556,6 +569,7 @@
 .material-page.orange .text-a200{ background: #FFAB40 !important; }
 .material-page.orange .text-a300{ background: #FF9100 !important; }
 .material-page.orange .text-a400{ background: #FF6D00 !important; }
+.material-page.orange div.query{color:#FFCC80;}
 
 
 /* * * DEEP ORANGE BACKGROUNDS * * */
@@ -593,6 +607,7 @@
 .material-page.deep-orange .text-a200{ background: #FF6E40 !important; }
 .material-page.deep-orange .text-a300{ background: #FF3D00 !important; }
 .material-page.deep-orange .text-a400{ background: #DD2C00 !important; }
+.material-page.deep-orange div.query{color:#FFAB91;}
 
 
 /* * * BROWN BACKGROUNDS * * */
@@ -622,6 +637,7 @@
 .material-page.brown .text-700{ color: #5D4037 !important; }
 .material-page.brown .text-800{ color: #4E342E !important; }
 .material-page.brown .text-900{ color: #3E2723 !important; }
+.material-page.brown div.query{color:#BCAAA4;}
 
 
 /* * * GREY BACKGROUNDS * * */
@@ -651,6 +667,7 @@
 .material-page.grey .text-700{ color: #616161 !important; }
 .material-page.grey .text-800{ color: #424242 !important; }
 .material-page.grey .text-900{ color: #212121 !important; }
+.material-page.grey div.query{color:#EEEEEE;}
 
 
 /* * * BLUE GREY BACKGROUNDS * * */
@@ -680,6 +697,7 @@
 .material-page.blue-grey .text-700{ color: #455A64 !important; }
 .material-page.blue-grey .text-800{ color: #37474F !important; }
 .material-page.blue-grey .text-900{ color: #263238 !important; }
+.material-page.blue-grey div.query{color:#B0BEC5;}
 
 
 /* * * BLACK BACKGROUNDS * * */
