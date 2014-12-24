@@ -143,121 +143,130 @@
             </h1>
 
             <div class="view-tools">
-              <ul class="nav nav-pills pull-right">
-                <li><a href="javascript:void(0)"><i class="mdi-content-remove-circle-outline"></i></a></li>
+              <ul class="nav nav-pills pull-right add">
+                <li><a href="javascript:void(0)"><i class="mdi-content-add add-button"></i></a></li>
               </ul>
-
-              <ul class="nav nav-pills pull-right search">
-                <li><a href="javascript:void(0)"><i class="mdi-action-search"></i></a></li>
-              </ul>
-
-              <ul class="nav nav-pills pull-right search">
-                <li><a id="add-col-btn"  href="javascript:void(0)"><i class="mdi-content-add"></i></a></li>
-              </ul>
-
-              <div id="add-col-form" class="form-container well bs-component">
-                <form class="form-inline" role="form">
-                  <div class="col-md-12">
-                    <h3>New Collection</h3>
-                  </div>
-
-                  <div class="form-group">
-                    <label for="inputEmail" class="col-md-12 control-label">Name</label>
-                    <div class="col-md-12">
-                      <div class="form-control-wrapper"><input type="text" class="form-control empty"></div>
-                    </div>
-                  </div>
-
-                  <div class="col-md-offset-">
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                    <button class="btn btn-default pull-left">Cancel</button>
-                  </div>
-                </form>
-              </div>
-
             </div>
           </div>
 
-          <div class="search-wrapper">
+          <div class="query-wrapper">
             <form class="form" role="form">
 
-              <div class="row">
-                <div class="col-md-9">
-                    <input type="text" class="form-control" id="searchbox" placeholder="Enter Query">
+              <div class="query">
+                <!-- Find --><span class="find"><span>find({</span><span contenteditable class="editable params"></span><span>}<span class="fields">,{<span contenteditable class="editable"></span>}</span>)</span></span>
+                <!-- Skip <--><span class="skip query-block"></--><span>.skip(</span><span contenteditable class="editable">10</span><span>)</span></span>
+                <!-- Limit <--><span class="limit query-block"></--><span>.limit(</span><span contenteditable class="editable">10</span><span>)</span></span>
+                <!-- Explain --><span class="explain query-block">.explain()</span>
+              </div>
+
+              <div class="row query-bottom">
+                <div class="col-md-10">
+                  <ul class="query-options">
+                    <li>fields</li>
+                    <li>skip</li>
+                    <li>limit</li>
+                    <li>explain</li>
+                  </ul>
                 </div>
 
-                <div class="col-md-3">
-                  <button type="submit" class="btn btn-default btn-block">Search</button>
+                <div class="col-md-2">
+                  <button type="submit" class="btn btn-primary btn-block">Run</button>
                 </div>
               </div>
 
             </form>
           </div>
 
-          <p class="records-summary"><strong>1-10</strong> of <strong>47</strong> documents</p>
+
+          <div class="view-tools pull-right">
+            <ul class="nav nav-pills pull-right">
+              <li><a href="javascript:void(0)"><i class="mdi-content-remove-circle-outline"></i></a></li>
+            </ul>
+
+            <ul class="nav nav-pills pull-right list">
+              <li><a href="javascript:void(0)"><i class="mdi-action-view-list"></i></a></li>
+            </ul>
+
+            <ul class="nav nav-pills pull-right list">
+              <li><a href="javascript:void(0)"><i class="mdi-action-view-agenda"></i></a></li>
+            </ul>
+          </div>
+
+          <p id="editable" class="records-summary"><strong>1-10</strong> of <strong>19</strong> documents</p>
 
 
 <div class="records">
 
   <div class="record">
-    <i class="mdi-content-clear pull-right"></i>
-    <p>ObjectID("5359550868cc9b2b372e2ea5")</p>
-    <div id="editor1" class="editor"> </div>
+    <div id="editor1" class="editor">
+      <i class="delete mdi-content-clear pull-right"></i>
+      <p class="_id">ObjectID("5359550868cc9b2b372e2ea5")</p>
+    </div>
   </div>
 
   <div class="record">
-    <i class="mdi-content-clear pull-right"></i>
-    <p>ObjectID("5359550868cc9b2b372e2ea5")</p>
-    <div id="editor2" class="editor"></div>
+    <div id="editor2" class="editor">
+      <i class="delete mdi-content-clear pull-right"></i>
+      <p class="_id">ObjectID("5359550868cc9b2b372e2ea5")</p>
+    </div>
   </div>
 
   <div class="record">
-    <i class="mdi-content-clear pull-right"></i>
-    <p>ObjectID("5359550868cc9b2b372e2ea5")</p>
-    <div id="editor3" class="editor"></div>
+    <div id="editor3" class="editor">
+      <i class="delete mdi-content-clear pull-right"></i>
+      <p class="_id">ObjectID("5359550868cc9b2b372e2ea5")</p>
+    </div>
   </div>
 
   <div class="record">
-    <i class="mdi-content-clear pull-right"></i>
-    <p>ObjectID("5359550868cc9b2b372e2ea5")</p>
-    <div id="editor4" class="editor"></div>
+    <div id="editor4" class="editor">
+      <i class="delete mdi-content-clear pull-right"></i>
+      <p class="_id">ObjectID("5359550868cc9b2b372e2ea5")</p>
+    </div>
   </div>
 
   <div class="record">
-    <i class="mdi-content-clear pull-right"></i>
-    <p>ObjectID("5359550868cc9b2b372e2ea5")</p>
-    <div id="editor5" class="editor"></div>
+    <div id="editor5" class="editor">
+      <i class="delete mdi-content-clear pull-right"></i>
+      <p class="_id">ObjectID("5359550868cc9b2b372e2ea5")</p>
+    </div>
   </div>
 
   <div class="record">
-    <i class="mdi-content-clear pull-right"></i>
-    <p>ObjectID("5359550868cc9b2b372e2ea5")</p>
-    <div id="editor6" class="editor"></div>
+    <div id="editor6" class="editor">
+      <i class="delete mdi-content-clear pull-right"></i>
+      <p class="_id">ObjectID("5359550868cc9b2b372e2ea5")</p>
+    </div>
   </div>
 
   <div class="record">
-    <i class="mdi-content-clear pull-right"></i>
-    <p>ObjectID("5359550868cc9b2b372e2ea5")</p>
-    <div id="editor7" class="editor"></div>
+    <div id="editor7" class="editor">
+      <i class="delete mdi-content-clear pull-right"></i>
+      <p class="_id">ObjectID("5359550868cc9b2b372e2ea5")</p>
+    </div>
   </div>
 
   <div class="record">
-    <i class="mdi-content-clear pull-right"></i>
-    <p>ObjectID("5359550868cc9b2b372e2ea5")</p>
-    <div id="editor8" class="editor"></div>
+    <div id="editor8" class="editor">
+      <i class="delete mdi-content-clear pull-right"></i>
+      <p class="_id">ObjectID("5359550868cc9b2b372e2ea5")</p>
+    </div>
   </div>
 
   <div class="record">
-  <i class="mdi-content-clear pull-right"></i>
-  <p>ObjectID("5359550868cc9b2b372e2ea5")</p>
-    <div id="editor9" class="editor"></div>
+    <div id="editor9" class="editor">
+      <i class="delete mdi-content-clear pull-right"></i>
+      <p class="_id">ObjectID("5359550868cc9b2b372e2ea5")</p>
+    </div>
   </div>
 
   <div class="record">
-    <i class="mdi-content-clear pull-right"></i>
-    <p>ObjectID("5359550868cc9b2b372e2ea5")</p>
-    <div id="editor10" class="editor"></div>
+    <div id="editor10" class="editor">
+      <i class="delete mdi-content-clear pull-right"></i>
+      <p class="_id">ObjectID("5359550868cc9b2b372e2ea5")</p>
+    </div>
   </div>
+
 
 </div>
 
@@ -383,16 +392,6 @@
       });
 
       var editor7 = CodeMirror(document.getElementById('editor7'), {
-        value: "function myScript(){return 100;}",
-        mode: { name: "javascript", json: true },
-        indentUnit: 4,
-        lineNumbers: true,
-        autoClearEmptyLines: true,
-        matchBrackets: true,
-        theme: "monokai"
-      });
-
-      var editor8 = CodeMirror(document.getElementById('editor8'), {
         value: "function myScript(){return 100;}",
         mode: { name: "javascript", json: true },
         indentUnit: 4,

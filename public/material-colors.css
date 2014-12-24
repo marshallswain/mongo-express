@@ -35,6 +35,7 @@
 .material-page.red .text-a200{ background: #FF5252 !important; }
 .material-page.red .text-a300{ background: #FF1744 !important; }
 .material-page.red .text-a400{ background: #D50000 !important; }
+.material-page.red div.query-wrapper .editable{color:#D32F2F;}
 
 
 /* * * PINK BACKGROUNDS * * */
@@ -183,6 +184,8 @@
 .material-page.indigo .text-a200{ background: #536DFE !important; }
 .material-page.indigo .text-a300{ background: #3D5AFE !important; }
 .material-page.indigo .text-a400{ background: #304FFE !important; }
+.material-page.indigo div.query{color:#9FA8DA;}
+
 
 
 /* * * BLUE BACKGROUNDS * * */
