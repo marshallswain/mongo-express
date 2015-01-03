@@ -10,7 +10,7 @@ can.route('', {'page':'server'});
 can.route('settings', {'page':'settings'});
 can.route('help', {'page':'help'});
 
-can.route(':database', {'page':'database'});
-can.route(':database/:collection', {'page':'collection'});
-can.route(':database/:collection/:document_id', {'page':'document'});
+can.route(':db_name', {'page':'database'});
+can.route(':db_name/:col_name', {'page':'collection'});
+can.route(':db_name/:col_name/:doc_id', {'page':'document'});
 

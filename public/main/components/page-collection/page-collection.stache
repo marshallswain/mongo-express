@@ -4,13 +4,17 @@
     <div class="page-header">
 
       <div class="breadcrumbs">
-        <a href="/new-index.html"><i class="mdi-action-dns"></i></a>
+        <a href="javascript:void(0)" can-click="goHome"><i class="mdi-action-dns"></i></a>
         <span> / </span>
-        <a href="/new-database.html">{{database}}</a>
+        {{#database}}
+        <a href="javascript:void(0)" can-click="gotoDB">{{name}}</a>
+        {{/database}}
         <span> / </span>
       </div>
 
-      <h1>{{collection}}</h1>
+      {{#collection}}
+      <h1>{{name}}</h1>
+      {{/collection}}
 
       <div class="view-tools">
         <ul class="nav nav-pills pull-right add">

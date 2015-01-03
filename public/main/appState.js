@@ -1,50 +1,99 @@
 'use strict';
 
-import {Doc} from '../../models/models';
-import {Database} from '../../models/models';
+import '../../models/models';
+
+// Resolve this with the collections when the database changes.
+var colDef = new can.Deferred();
 
 // Defines the state of the application
 var AppState = can.Map.extend({
 	define : {
 
 		databases: {
-			value: new Database.List({}),
+			value: new Database.List(),
 			serialize:false
+		},
+
+		db_name:{
+			set(value){
+				for (var i = this.attr('databases').length - 1; i >= 0; i--) {
+					if (value == this.attr('databases')[i].name) {
+						this.attr('database', this.attr('databases')[i]);
+					};
+				};
+				return value;
+			},
+			remove(){
+				this.attr('database', {});
+			}
 		},
 
 		database:{
+			// When a db is set, get its collections.
 			set(value){
-				console.log('Database: ' + value);
+				var self = this;
+				console.log('database: ');
+				console.log(value);
+				Collection.findAll({database:value.name}, function(cols){
+					self.attr('collections', cols);
+
+
+				});
 				return value;
-			}
+			},
+			serialize:false
 		},
 
 		collections: {
-			get() {
-				return 'collections';
+			set(value){
+				console.log('collections');
+				console.log(value);
+
+				console.log('resolving colDef')
+				colDef.resolve(value);
+
+				return value;
 			},
 			serialize:false
 		},
 
-		collection:{
+		col_name:{
 			set(value){
-				console.log('Collection: ' + value);
-				this.attr('docs', new Doc.List({'database':this.attr('database'), 'collection':value}));
+				var self = this;
+
+				colDef.done(function(cols){
+					for (var i = cols.length - 1; i >= 0; i--) {
+						if (value == cols[i].name) {
+							self.attr('collection', cols[i]);
+						};
+					};
+				});
 				return value;
+			},
+			remove(){
+				this.attr('collection', {});
+				this.attr('page', 'database');
 			}
 		},
 
-		docs: {
-			value: new Doc.List(),
+		collection:{
+			value:{},
 			set(value){
-				value.done(function(docs){
-					console.log(docs);
-				})
+				console.log('collection: ' + value);
+				// this.attr('docs', new Doc.List({'database':this.attr('database'), 'collection':value}));
+				return value;
 			},
 			serialize:false
 		},
 
-		document_id:{}
+		docs: {
+			set(value){
+				console.log(value);
+			},
+			serialize:false
+		},
+
+		doc_id:{}
 
 	},
 
